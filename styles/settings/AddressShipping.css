@@ -1,0 +1,45 @@
+.address-box {
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .address-box.default {
+    border: 2px solid #007bff;
+  }
+  
+  .address-actions {
+    margin-top: 10px;
+  }
+  
+  .address-actions button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .address-actions .delete-btn {
+    background: #ff4d4d;
+  }
+  
+  .address-form input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+  }
+  
+  .address-form button {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  

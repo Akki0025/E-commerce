@@ -1,0 +1,180 @@
+/* General Reset */
+body {
+  background-color: #FFFFFF; 
+  font-family: "Poppins", sans-serif;
+  color: #000000; 
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-x: hidden; 
+}
+
+/* Breadcrumb Styling */
+.breadcrumb {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.breadcrumb .active {
+  font-weight: 600;
+  color: #000;
+}
+
+/* Product Container */
+.product-container {
+  display: flex;
+  /* flex-wrap: wrap; Allow responsive layout */
+  width: 100%;
+  padding: 20px;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+/* Updated Product Gallery Grid */
+.product-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  max-width:65%;
+  gap: 5px;
+}
+
+.product-gallery-grid img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Product Details Styling */
+.product-details {
+  flex: 1;
+  min-width: 300px;
+}
+
+/* Product Name */
+h1 {
+  font-size: 26px;
+  font-weight: 600; /* Semi-bold for a professional look */
+  margin-bottom: 10px;
+  color: #111; /* Stronger black for emphasis */
+}
+
+/* Category Text */
+.category {
+  font-size: 14px;
+  color: #666; /* Softer gray for subtlety */
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+/* Pricing */
+.price {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: grey;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.discount-price {
+  color: #d32f2f; /* Elegant red for emphasis */
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Size Selection */
+.size-selection p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.size-options {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.size-options button {
+  border: 1px solid black;
+  padding: 10px;
+  cursor: pointer;
+  background: white;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.size-options button.selected {
+  background: black;
+  color: white;
+  font-weight: 600;
+}
+
+/* Add to Cart Button */
+.add-to-cart {
+  width: 100%;
+  padding: 12px;
+  background: black;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+  border: none;
+  transition: 0.2s;
+}
+
+.add-to-cart:hover {
+  background: #333;
+}
+
+.add-to-cart:disabled {
+  background: grey;
+  cursor: not-allowed;
+}
+
+/* Delivery & Ratings */
+.delivery,
+.rating {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #444;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Icons inside delivery and rating */
+.delivery svg,
+.rating svg {
+  color: #000;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .product-details {
+    text-align: center;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .product-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-gallery-grid {
+    width: 100%;
+  }
+}

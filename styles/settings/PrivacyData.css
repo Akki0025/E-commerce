@@ -1,0 +1,19 @@
+.blocked-users-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .blocked-users-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #f8f9fa;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+  
+  select {
+    padding: 6px;
+    margin-top: 5px;
+  }
+  

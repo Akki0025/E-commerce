@@ -1,0 +1,153 @@
+.cartContainer {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cartLayout {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Cart Items */
+.cartItems {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cartItem {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    gap: 15px;
+}
+
+.productImage {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.productDetails {
+    flex: 1;
+}
+
+.productName {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.productInfo {
+    font-size: 14px;
+    color: #555;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.oldPrice {
+    text-decoration: line-through;
+    color: red;
+    margin-right: 5px;
+}
+
+.discountPrice {
+    color: green;
+    font-weight: bold;
+}
+
+.quantityControls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.quantityControls button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    background: #fff;
+    cursor: pointer;
+}
+
+.removeButton {
+    background: none;
+    border: none;
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Summary Section */
+.cartSummary {
+    flex: 1;
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.summaryTitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.summaryDetails p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.summaryTotal {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.checkoutButton {
+    width: 100%;
+    padding: 12px;
+    background: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.paymentMethods {
+    margin-top: 20px;
+}
+
+.paymentIcons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.cod {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+}
+
+.deliveryInfo {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}

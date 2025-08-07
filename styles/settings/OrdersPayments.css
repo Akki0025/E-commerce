@@ -1,0 +1,27 @@
+.orders-list, .payment-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .orders-list li, .payment-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #f8f9fa;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 6px 10px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #cc0000;
+  }
+  
